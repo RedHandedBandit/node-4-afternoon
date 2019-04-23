@@ -1,5 +1,5 @@
-const users = require('../models/users')
-const id = 1
+let users = require('../models/users')
+let id = 1
 
 module.exports = {
     login: (req, res) => {
